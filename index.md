@@ -68,8 +68,8 @@ To train your personalized email assistant, please go to the [code](https://gith
 
 ## Authors
 
-Panza was created by the [Distributed Algorithms and Systems group](https://ist.ac.at/en/research/alistarh-group/) at IST Austria. The contributors are (in alphabetical order):
+Panza was conceived by Nir Shavit and Dan Alistarh and built by the [Distributed Algorithms and Systems group](https://ist.ac.at/en/research/alistarh-group/) at IST Austria. The contributors are (in alphabetical order):
 
-Dan Alistarh, Eugenia Iofinova, Eldar Kurtic, Armand Nicolicioiu, Mahdi Nikdan, and Andrei Panferov.
+Dan Alistarh, Eugenia Iofinova, Eldar Kurtic, Armand Nicolicioiu, Mahdi Nikdan, Andrei Panferov, and Nir Shavit.
 
-We thank our collaborators Michael Goin, Nir Shavit, and Tony Wang at NeuralMagic and MIT for their helpful testing and feedback.
+We thank our collaborators Michael Goin and Tony Wang at NeuralMagic and MIT for their helpful testing and feedback.
