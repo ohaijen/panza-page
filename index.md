@@ -1,8 +1,3 @@
-
-<img src="https://github.com/ohaijen/panza-page/blob/main/panza_logo.png?raw=true" alt="panza logo" width="300"/>
-
-# Panza: A personal email assistant, trained and running on-device.
-
 ## What is Panza?
 Panza is a tool for automatically generating emails that are customized to your writing style and past e-mail history.
 More precisely, we provide process for using your past emails to finetune a publicly-available Large Language Model with 7 billion parameters (we use Mistral-Instruct-7b).
