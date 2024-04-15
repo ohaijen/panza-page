@@ -37,7 +37,9 @@ As an additional bonus, Panza retains many of the capabilities of the original m
 
 
 >[INST] Write an email to my friend Stew explaining how a steam engine works.
-> [/INST] Hi Stew,
+> [/INST]
+>
+> Hi Stew,
 >
 >Steam engines work by heating water to create steam. The steam is
 >then used to push a piston, which in turn moves a crankshaft. The
@@ -51,15 +53,15 @@ As an additional bonus, Panza retains many of the capabilities of the original m
 
 ## How it works
 For most email clients, it is possible to download a user's past emails in a machine-friendly .mbox format.
-These are used as training data, as follows. For each email, Panza uses a pretrained model (we use Mistral-Instruct-7b with no additional training) to write a command that might lead an LLM to generate the email. This gives us a (semi-synthetic) training set that we use to finetune a LLM to generate emails that match those written by the user, in response to the synthetic prompts created in the previous step.
+These are used as training data, as follows. For each email, Panza uses a pretrained model (we use [Mistral-Instruct-7b](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) with no additional training) to write a command that might lead an LLM to generate the email. This gives us a (semi-synthetic) training set that we use to finetune a LLM to generate emails that match those written by the user, in response to the synthetic prompts created in the previous step.
 
-We then use parameter-efficient finetuning to train the LLM on this dataset. We found that we get the best results with the RoSA method, which combines low-rank (LoRA) and sparse finetuning. If parameter efficiency is not a concern, then regular, full-rank/full-parameter finetuning can also be used. We find that a moderate amount of further training strikes the right balance between matching the writer's style without memorizing irrelevant details in past emails.
+We then use parameter-efficient finetuning to train the LLM on this dataset. We found that we get the best results with the [RoSA method](https://arxiv.org/pdf/2401.04679.pdf), which combines low-rank (LoRA) and sparse finetuning. If parameter efficiency is not a concern, then regular, full-rank/full-parameter finetuning can also be used. We find that a moderate amount of further training strikes the right balance between matching the writer's style without memorizing irrelevant details in past emails.
 
 Optionally, Panza can be run with a Retrieval-Augmented Generation (RAG) module. This functionality stores past emails in a database and provides several of the most relevant ones for each new query. This allows Panza to better insert specific details, such as a writer's contact information or frequently used Zoom links.
 
 ## Try it out
 
-To train your personalized email assistant, please go to the (code)[https://github.com/IST-DASLab/panza-dev/tree/master] and follow the instructions in the README. You will need:
+To train your personalized email assistant, please go to the [code](https://github.com/IST-DASLab/panza-dev/tree/master) and follow the instructions in the README. You will need:
 * Your emails, exported to `mbox` format.
 * A computer, preferably with an NVIDIA GPU with at least 22 GiB of memory. Panza can also be trained on CPU, but this takes considerably longer.
 * Basic Python/unix knowledge, such as building environments and running python scripts.
