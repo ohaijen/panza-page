@@ -65,3 +65,11 @@ To train your personalized email assistant, please go to the [code](https://gith
 * Your emails, exported to `mbox` format.
 * A computer, preferably with an NVIDIA GPU with at least 22 GiB of memory. Panza can also be trained on CPU, but this takes considerably longer.
 * Basic Python/unix knowledge, such as building environments and running python scripts.
+
+## Authors
+
+Panza was created by the [Distributed Algorithms and Systems group](https://ist.ac.at/en/research/alistarh-group/) at IST Austria. The contributors are (in alphabetical order):
+
+Dan Alistarh, Eugenia Iofinova, Eldar Kurtic, Armand Nicolicioiu, Mahdi Nikdan, and Andrei Panferov.
+
+We thank our collaborators Michael Goin, Nir Shavit, and Tony Wang at NeuralMagic and MIT for their helpful testing and feedback.
