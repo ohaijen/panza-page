@@ -1,5 +1,5 @@
 
-<img src="https://github.com/iohaijen/panza-page/blob/master/panza_logo.png?raw=true" alt="panza logo" width="300"/>
+<img src="https://github.com/iohaijen/panza-page/blob/main/panza_logo.png?raw=true" alt="panza logo" width="300"/>
 
 # Panza: A personal email assistant, trained and running on-device.
 
