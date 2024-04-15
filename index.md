@@ -57,10 +57,9 @@ We then use parameter-efficient finetuning to train the LLM on this dataset. We 
 
 Optionally, Panza can be run with a Retrieval-Augmented Generation (RAG) module. This functionality stores past emails in a database and provides several of the most relevant ones for each new query. This allows Panza to better insert specific details, such as a writer's contact information or frequently used Zoom links.
 
-# Step-by-step guide
+## Try it out
 
-To train your personalized email assistant, follow the three steps below.
-
-1. Follow the README in the `data_preparation` directory to prepare your personalized instruction/email dataset.
-2. Change to the `finetuning` directory and follow the tutorial there to finetune a `Mistral-7B` model on your dataset.
-3. Finally, in the `serving` directory you can employ your finetuned model to generate emails.
+To train your personalized email assistant, please go to the (code)[https://github.com/IST-DASLab/panza-dev/tree/master] and follow the instructions in the README. You will need:
+* Your emails, exported to `mbox` format.
+* A computer, preferably with an NVIDIA GPU with at least 22 GiB of memory. Panza can also be trained on CPU, but this takes considerably longer.
+* Basic Python/unix knowledge, such as building environments and running python scripts.
