@@ -1,7 +1,7 @@
 A personal assistant is a software application that helps manage various daily tasks such as email, calendar, writing, summarizing, recalling past events or actions etc, that take up unneeded time on today’s laptop and phone environments. Most personal assistants are based on an LLM, and typically on an LLM residing in the cloud and accessed via an API. This has the advantage of simplicity and the ability to use the capabilities of the latest large models, but makes it computationally expensive and difficult to:
 
 - **Personalize** the model, that is, customize it to the specific individual. 
-- **Protect** that person’s privacy, that is, allow the AI to have access to very personal information of a caliber that - unlike corporate data - many people will never agree to share even if promised that this will be protected by the provider’s cloud. 
+- **Protect the user’s privacy**, that is, allow the AI to have access to very personal information of a caliber that - unlike corporate data - many people will never agree to share even if promised that this will be protected by the provider’s cloud. 
 - **Have 0 attitude**: generate anything, allowing the individual to make their own copyright and morality decisions, after the requested content is generated. 
 
 Panza is a desktop LLM-based assistant that aims to overcome these three problems. It is the user’s confidant, enjoying secure and comfort-inspiring access to all data in the user’s environment without developing an attitude, i. e. without attempting to control their creativity and communication style. In our vision, Panza will continuously improve based on the data of a specific person, learning the history, the associativity patterns, and the style of the user, and using these data to deliver a great individual support experience.
@@ -60,8 +60,9 @@ As an additional bonus, Panza retains many of the capabilities of the original m
 >Best,
 >
 >Jen
->
->## How it works
+
+
+## How it works
 For most email clients, it is possible to download a user's past emails in a machine-friendly .mbox format.
 These are used as training data, as follows. For each email, Panza uses a pretrained model (we use [Mistral-Instruct-7b](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) with no additional training) to write a command that might lead an LLM to generate the email. This gives us a (semi-synthetic) training set that we use to finetune a LLM to generate emails that match those written by the user, in response to the synthetic prompts created in the previous step.
 
