@@ -4,7 +4,7 @@ A personal assistant is a software application that helps manage various daily t
 - **Protect the user’s privacy**, that is, allow the AI to have access to very personal information of a caliber that - unlike corporate data - many people will never agree to share even if promised that this will be protected by the provider’s cloud. 
 - **Have 0 attitude**: generate anything, allowing the user to make their own copyright and morality decisions, as any individual does, aafter the requested content is generated. 
 
-Panza is a desktop LLM-based assistant that aims to overcome these three problems. It is the user’s confidant, enjoying secure and comfort-inspiring access to all data in the user’s environment without developing an attitude, i. e. without attempting to control their creativity and communication style. In our vision, Panza will continuously improve based on the data of a specific person, learning the history, the associativity patterns, and the style of the user, and using this data to deliver a great individual support experience.
+Panza is a desktop LLM-based assistant that aims to overcome these three problems. It is the user’s confidant, having secure and comfort-inspiring access to all data in the user’s environment without developing an attitude, i. e. without attempting to control their creativity and communication style. In our vision, Panza will continuously improve based on the data of a specific person, learning the history, the associativity patterns, and the style of the user, and using this data to deliver a great individual support experience.
 
 Our first version of Panza is Panza Mail.
 
