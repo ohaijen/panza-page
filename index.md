@@ -18,9 +18,9 @@ Training is also quick - for a dataset of about 1000 emails, training takes well
 
 > [INST] Write a message to my local neighborhood mailing list, asking if anyone can water my plants and feed my cat Spike the last week in March.
 > [/INST]
->
->   **Panza:**
->
+
+Panza:
+
 >  Hi everyone,
 >
 > I'll be away from March 23 to March 30. If anyone can water my plants and
@@ -29,9 +29,9 @@ Training is also quick - for a dataset of about 1000 emails, training takes well
 > Thanks,
 >
 > Jen
->
-> **Mistral-7B-Instruct:**
->
+
+Mistral-7B-Instruct:
+
 >Dear Neighbors,
 >
 >I hope this message finds you well. I am writing to kindly request your help with taking care of my plants and cat Spike for the last week in March. I will be away on a business >trip and will not be able to come back home to take care of my garden and my furry friend.
