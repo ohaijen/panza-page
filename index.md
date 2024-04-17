@@ -1,14 +1,14 @@
 ## Why Panza?
 
-A digital personal assistant is a software application that helps manage various daily tasks such as email, calendar, writing, summarizing, recalling past events or actions, etc, that take up unneeded time in today’s laptop and phone environments. Today, most such assistants are based on a Large Language Model (LLM). An ideal assistant would have the ability to:
+A digital personal assistant is software that helps manage various daily tasks such as email, calendar, writing, summarizing, recalling past events or actions, etc, that take up unneeded time in today’s laptop and phone environments. One approach to build such an assistant would be based on a Large Language Model (LLM). An ideal assistant would have the ability to:
 
 - **Personalize** the model, that is, customize it to the specific individual. 
-- **Protect the user’s privacy**, that is, allow the AI to have access to very personal information of a caliber that - unlike corporate data - many people will never agree to share, even if promised that this will be protected by the provider’s cloud.
-- **Have low overhead**, that is, not require extensive work by the user to build or improve. This desideratum excludes such measures as manual data creation or annotation, and extensive prompt engineering.
+- **Protect the user’s privacy**, that is, allow the AI to have access to very personal information that many people will never agree to share, even if promised that this will be protected by the provider’s cloud.
+- **Have low overhead**, that is, not require extensive work by the user to build or improve. Ideally, one would like to avoid tedious tasks such as manual data creation or annotation, and extensive prompt engineering.
 
-Today's assistants typically rely on an LLM residing in the cloud and accessed via an API. This has the advantage of simplicity and the ability to use the capabilities of the latest large models. However, this approach makes it computationally expensive and difficult to reliably and credibly meet the first two goals stated above.
+Today's LLM-based assistants typically reside in the cloud, and are accessed via an API. This has the advantage of simplicity and the ability to use the capabilities of the latest large models. However, this approach makes it computationally expensive and difficult to reliably and credibly meet the first two goals stated above.
 
-Panza is a desktop LLM-based assistant that aims to tackle these challenges together. In our version, all data and custom model weights stay local, allowing the user to confidently provide Panza with sensitive information. This access will allow Panza to mimic the user's expression, removing the 'corporate' or 'sterilized' feel of commercially available models. At the same time, all data curation and annotation steps are automated, minimizing the overhead of training and deploying Panza. We envision Panza as continuously based on the data of a specific person, learning the history, the associativity patterns, and the style of the user, and using this data to deliver a great individual support experience.
+Panza is a desktop LLM-based assistant that aims to tackle these challenges jointly. In Panza, all data and custom model weights stay local, allowing the user to confidently provide Panza with sensitive information. This access will allow Panza to mimic the user's expression, avoiding the 'corporate' or 'sterilized' feel of commercially available models. At the same time, all data curation and annotation steps are automated, minimizing the overhead of training and deploying Panza. We envision Panza as continuously based on the data of a specific user, learning the history, the associativity patterns, and the style of the user, and using this data to deliver a great individual experience.
 
 Our first version of Panza is Panza Mail.
 
