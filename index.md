@@ -70,6 +70,8 @@ As an additional bonus, Panza retains many of the capabilities of the original m
 
 ## How it works 
 
+<img src="https://github.com/ohaijen/panza-page/blob/main/panza_diagram.png?raw=true" alt="panza diagram"/>
+
 ### Step 1: Data playback
 
 For most email clients, it is possible to download a user's past emails in a machine-friendly .mbox format. For example, GMail allows you to do this via [Google Takeout](takeout.google.com). 
