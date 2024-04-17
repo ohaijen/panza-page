@@ -2,9 +2,8 @@ A digital personal assistant is a software application that helps manage various
 
 - **Personalize** the model, that is, customize it to the specific individual. 
 - **Protect the user’s privacy**, that is, allow the AI to have access to very personal information of a caliber that - unlike corporate data - many people will never agree to share, even if promised that this will be protected by the provider’s cloud. 
-- **Have 0 attitude**: generate content allowing the user to make their own copyright and morality decisions, as any individual does, after the requested content is generated. 
 
-Panza is a desktop LLM-based assistant that aims to tackle these three challenges. It is the user’s confidant, having secure and comfort-inspiring access to all data in the user’s environment without developing an attitude, i. e. without attempting to control their communication style. In our vision, Panza will continuously improve based on the data of a specific person, learning the history, the associativity patterns, and the style of the user, and using this data to deliver a great individual support experience.
+Panza is a desktop LLM-based assistant that aims to tackle these challenges. The fact that all data and model weights stay local allows the user to confidently provide Panza with sensitive information, and this access will allow Panza to mimic the user's expression, removing the 'corporate' or 'sterilized' feel of commercially available models. In our vision, Panza will continuously improve based on the data of a specific person, learning the history, the associativity patterns, and the style of the user, and using this data to deliver a great individual support experience.
 
 Our first version of Panza is Panza Mail.
 
@@ -46,22 +45,27 @@ Mistral-7B-Instruct:
 >[Your Name]
 
 
-As an additional bonus, Panza retains many of the capabilities of the original model, allowing for the injection of world knowledge into the generated emails (however, use at your own risk).
+As an additional bonus, Panza retains many of the capabilities of the original model, allowing for the injection of world knowledge into the generated emails (note that in the email below, Panza correctly inferred that machine learning was involved).
 
 
->[INST] Write an email to my friend Stew explaining how a steam engine works.
-> [/INST]
+>[User Instruction] Write an enthusiastic e-mail to Armand presenting the new writing assistant called Panza.
 >
-> Hi Stew,
 >
->Steam engines work by heating water to create steam. The steam is
->then used to push a piston, which in turn moves a crankshaft. The
->crankshaft is connected to the wheel, so when the piston moves, the
->wheel moves, and the train moves.
+> Hi Armand,
+>
+>Super excited to share with you the new writing assistant I've been working on! It's called Panza and it's going to make our lives so much easier.
+>
+>It's a machine learning model that can understand our writing style and can help us write emails more efficiently.
+>
+>I've been testing it for a few days now, and it's already making a huge difference. It's like having a personal assistant that can write emails for us.
+>
+>I think it's going to be especially helpful for us, given the number of emails we have to write every day.
+>
+>Let me know what you think!
 >
 >Best,
 >
->Jen
+>Dan
 
 
 ## How it works 
