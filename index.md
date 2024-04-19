@@ -22,32 +22,45 @@ We plan to also release more efficient versions of Panza that would require less
 
 Here is an example of Panza in action, compared with the base model: 
 
-> [User Instruction] Write a message to my local neighborhood mailing list, asking if anyone can water my plants and feed my cat Spike the last week in March.
-> 
+> [User Instruction]  Write an email to my dad with my new address and phone number.
 
 Panza:
 
->  Hi everyone,
+> Hi Dad,
 >
-> I'll be away from March 23 to March 30. If anyone can water my plants and
-> feed my cat Spike, that would be great.
->
-> Thanks,
->
-> Jen
+> I hope you're doing well! I wanted to share my updated contact information with you:
+> 
+> Address:  Schönbrunner Schloßstraße 47, 1130, Vienna, Austria
+> Phone Number: +43 01 81113239
+
+I'm looking forward to catching up with you soon. Let me know if there's a good time for you to call.
+
+Best,
+Jen
 
 Mistral-7B-Instruct:
 
->Dear Neighbors,
+> Dear Dad,
 >
->I hope this message finds you well. I am writing to kindly request your help with taking care of my plants and cat Spike for the last week in March. I will be away on a business >trip and will not be able to come back home to take care of my garden and my furry friend.
+> I hope this email finds you well! I'm excited to share some news with you - I have recently moved to a new place and I'd be happy to provide you with my updated contact information.
 >
->If anyone is willing and able to help me out, I would be extremely grateful. Please let me know if you can come by my house and water my plants and feed Spike. I will make sure to leave you with the necessary instructions and supplies.
+> My new address is:
+> [Your Name]
+> [New Address]
+> [City, State, Zip Code]
 >
->Thank you in advance for your kindness and generosity. I look forward to hearing from you soon.
+> And my new phone number is:
+> [Your Name]
+> [New Phone Number]
 >
->Best regards,
->[Your Name]
+> I'd love to hear from you soon and catch up on all the latest happenings. If you have a moment, could you please update your records with my new contact information? I'd appreciate it!
+>
+> I'm looking forward to settling into my new place and exploring my new neighborhood. I'll be sure to send you pictures and updates as I make progress.
+> 
+> Take care and give my love to Mom and the rest of the family.
+>
+> Best,
+> [Your Name]</s>
 
 
 As an additional bonus, Panza retains many of the capabilities of the original model, allowing for the injection of world knowledge into the generated emails (note that in the email below, Panza correctly inferred that machine learning was involved).
