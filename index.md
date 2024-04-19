@@ -31,11 +31,13 @@ Panza:
 > I hope you're doing well! I wanted to share my updated contact information with you:
 > 
 > Address:  Schönbrunner Schloßstraße 47, 1130, Vienna, Austria
+> 
 > Phone Number: +43 01 81113239
 > 
 > I'm looking forward to catching up with you soon. Let me know if there's a good time for you to call.
 > 
 > Best,
+> 
 > Jen
 
 Mistral-7B-Instruct:
@@ -45,13 +47,20 @@ Mistral-7B-Instruct:
 > I hope this email finds you well! I'm excited to share some news with you - I have recently moved to a new place and I'd be happy to provide you with my updated contact information.
 >
 > My new address is:
+> 
 > [Your Name]
+> 
 > [New Address]
+> 
 > [City, State, Zip Code]
 >
+> 
 > And my new phone number is:
+> 
 > [Your Name]
+> 
 > [New Phone Number]
+> 
 >
 > I'd love to hear from you soon and catch up on all the latest happenings. If you have a moment, could you please update your records with my new contact information? I'd appreciate it!
 >
@@ -60,6 +69,7 @@ Mistral-7B-Instruct:
 > Take care and give my love to Mom and the rest of the family.
 >
 > Best,
+> 
 > [Your Name]</s>
 
 
